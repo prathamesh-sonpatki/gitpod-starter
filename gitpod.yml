@@ -1,0 +1,10 @@
+ports:
+  # Prometheus server port.
+  - port: 9090
+    onOpen: open-browser
+  # Alertmanager port.
+  - port: 9093
+    onOpen: open-browser
+  # Grafana port.
+  - port: 3000
+    onOpen: open-browser
